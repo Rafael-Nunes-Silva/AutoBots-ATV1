@@ -22,6 +22,7 @@ import com.autobots.automanager.repositorios.ClienteRepositorio;
 public class ClienteControle {
 	@Autowired
 	private ClienteRepositorio repositorio;
+	
 	@Autowired
 	private ClienteSelecionador selecionador;
 
